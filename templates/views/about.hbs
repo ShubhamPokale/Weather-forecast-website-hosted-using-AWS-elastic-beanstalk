@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&display=swap" rel="stylesheet">
+    <link rel="icon" href="https://cdn2.iconfinder.com/data/icons/weather-flat-14/64/weather02-256.png">
+    <title>About</title>
+</head>
+
+<body>
+    <div class="main-content">
+        {{>header}}
+        <p>This weather application is made using NodeJS, Express,<a class= "weatherstack"href="https://weatherstack.com/">Weather Stack API</a> and mapbox.com.</p>
+
+        <p>Here is the <a class= "weatherstack" href="https://github.com/ShubhamPokale/Group10-Miniproject">Github Repository</a> for this website.</p>
+
+        <h1>About Me</h1>
+        {{!-- <img class="my-img"
+            src="https://images.pexels.com/photos/4974914/pexels-photo-4974914.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+            alt="My photo"> --}}
+        {{!-- <img class="my-img"
+            src=" "
+            alt="My photo"> --}}
+            <p>Hello , This is Group no. 10 , Prathamesh Ahir , Shubham Pokale , Kaushal Sawant & Furquan Thokan.</p>
+    </div>
+    {{>footer}}
+</body>
+
+</html>
